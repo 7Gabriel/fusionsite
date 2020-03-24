@@ -86,7 +86,8 @@ DATABASES = {
     }
 }
 """
-DATABASE = {
+
+DATABASES = {
     'default': dj_database_url.config()
 }
 
